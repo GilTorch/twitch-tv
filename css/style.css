@@ -1,0 +1,78 @@
+body{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f4f4f4+0,999999+99 */
+background: #f4f4f4; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #f4f4f4 0%, #999999 99%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #f4f4f4 0%,#999999 99%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  #f4f4f4 0%,#999999 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#999999',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+h1{
+  text-align:center;
+  font-family: 'Fredoka One', cursive;
+  text-box:0px 0px 10px black;
+  
+}
+#mytv{
+  width:5%;
+  vertical-align:bottom;
+}
+
+.tv-state-button{
+  width:30px;
+  height:30px;
+}
+nav{
+  width:100%;
+  background-color:red;
+  border-radius:10px;
+  color:white;
+  font-family: 'Fredoka One', cursive;
+  font-size:2.4em;
+}
+
+nav ul{
+  list-style-type:none;
+}
+
+nav ul li{
+  display:inline;
+  margin-right:50px;
+}
+
+nav ul li:hover{
+  color:black;
+  cursor:pointer;
+  transition:0.4s;
+}
+
+#mychannels{
+ padding: 2%;
+}
+
+.each-channel{
+  background-color:white;
+  border:1px solid gray;
+  padding:2%;
+  text-align:center;
+  font-size: 2em;
+}
+
+.each-channel img{
+  width:15%;
+  border:10px ridge gray;
+  border-radius:50%;
+  border-color:white;
+  box-shadow:0px 0px 9px black;
+}
+
+
+#copyright{
+  text-align:center;
+}
+
+#myAnimation{
+  display:none;
+  width:100%;
+}
