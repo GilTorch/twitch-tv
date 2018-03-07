@@ -72,7 +72,26 @@ nav ul li:hover{
   text-align:center;
 }
 
-#myAnimation{
-  display:none;
-  width:100%;
+#loading-animation{
+  font-size:10em;
+  text-align: center;
+}
+
+.offline{
+  color:red;
+  opacity: 0.5;
+}
+
+.online{
+  color:green;
+  opacity: 1;
+}
+
+#search-box{
+  margin:auto;
+  width:200px;
+  height:30px;
+  border-style:none;
+  border-radius: 5px;
+  color:red;
 }
